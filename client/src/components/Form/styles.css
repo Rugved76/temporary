@@ -1,0 +1,34 @@
+
+@keyframes blooming {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.paper {
+    padding: 16px;
+    animation : blooming 0.8s ease;
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fileInput {
+    width: 97%;
+    margin: 10px 0;
+}
+
+.buttonSubmit {
+    margin-bottom: 10px;
+}
+
+.signintointeract{
+    color: grey;
+}
